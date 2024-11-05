@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Tymoteusz Wołek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nagłówek -->
+    <header>
+        <div class="banner">
+            <h1>Tymoteusz Wołek</h1>
+            <p>Programista | Twórca Aplikacji Webowych</p>
+        </div>
+        <nav>
+            <a href="#o-mnie">O mnie</a>
+            <a href="#umiejetnosci">Umiejętności</a>
+            <a href="#projekty">Projekty</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <!-- Sekcja O mnie -->
+    <section id="o-mnie">
+        <h2>O mnie</h2>
+        <p>Jestem początkującym programistą z pasją do tworzenia estetycznych i funkcjonalnych stron internetowych oraz aplikacji webowych.</p>
+    </section>
+
+    <!-- Sekcja Umiejętności -->
+    <section id="umiejetnosci">
+        <h2>Umiejętności</h2>
+        <div class="skills-container">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+        </div>
+    </section>
+
+    <!-- Sekcja Projekty -->
+    <section id="projekty">
+        <h2>Projekty</h2>
+        
+        <!-- Projekt: Losowanie liczby -->
+        <div class="project">
+            <h3>Losowanie liczby</h3>
+            <p>Kliknij przycisk, aby wylosować liczbę od 1 do 100.</p>
+            <div id="random-number-container">
+                <div id="random-number">0</div>
+                <button id="generate-button">Losuj liczbę</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uproszczony formularz kontaktowy -->
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Twoje imię">
+            <input type="email" placeholder="Twój e-mail">
+            <textarea placeholder="Twoja wiadomość"></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

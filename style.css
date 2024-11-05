@@ -1,0 +1,113 @@
+/* Styl ogólny */
+body {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+}
+
+/* Nagłówek */
+header {
+    background: linear-gradient(135deg, #333333, #555555);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #e0e0e0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    color: #ff9800;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+/* Sekcje */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+/* Umiejętności */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.skill {
+    background: linear-gradient(135deg, #ff9800, #f44336);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* Sekcja Projekty */
+#projekty {
+    background-color: #1e1e1e;
+}
+
+.project {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#random-number-container {
+    margin-top: 20px;
+}
+
+#random-number {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+button#generate-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Formularz kontaktowy */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #222;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff9800;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
